@@ -1,9 +1,15 @@
--- Mostrar todos os registros da tabela de filmes. 
+# SQL Queries for Movie Database
 
+Below are various SQL queries that can be used to interact with a `movies_db` database. Each query is designed to retrieve specific information from the tables such as `movies`, `actors`, and `series`.
+
+## 1. Mostrar todos os registros da tabela de filmes
+
+```sql
 SELECT 
-	title 
+    title 
 FROM 
-	movies_db.movies; 
+    movies_db.movies;```
+
 
 -- Exibir o primeiro nome, o sobrenome e a classificação de todos os atores. 
 
